@@ -1,3 +1,6 @@
+'use strict';
+// Using strict explicitly will keep you hygenic. Many tutorials drop it, but it will help.
+
 require('dotenv').config({ path: __dirname + '/../variables.env' });
 const fs = require('fs');
 
